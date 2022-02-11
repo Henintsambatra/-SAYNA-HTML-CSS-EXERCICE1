@@ -1,0 +1,133 @@
+/*Barrre de navigation*/
+nav
+{ 
+overflow: hidden;
+background: #C55394;
+padding: auto;/*Qui commande la Largeur interne*/
+}
+ul
+{
+padding: 0;
+margin: 0;
+}
+li
+{
+list-style: none; /*sans style disc*/
+margin: 0 12px;
+font-size: 14px; /*Taille de police*/
+}
+/*My unicorn title*/
+li a
+{
+text-decoration: none;
+color: #fff;   
+}
+/*Mise en forme*/
+.title
+{ 
+padding: 12px 0; 
+font-size: 24px; /*Taille de police*/
+float: left;
+font-family:"courgette", cursive;
+}
+.menu
+{
+padding: 18px 5px;
+margin: 5px;
+display: flex;
+float: right;
+font-family: Arial, sans-serif;
+}
+.menu a:hover
+{
+background-color: #EB43A3;
+padding:25px;
+}
+/*l'arriere plan de c'est page*/
+body
+{
+background-image:url(img/background.png);
+margin: 0;
+}
+/* Rainbow= image arc en ciel*/
+.Arc h1
+{
+text-align:center;
+font-size: 28px;
+color: #C55394;
+padding-top: 65px;
+margin-top:0 30px;
+font-family:"courgette",cursive;
+background-position:center;
+background-size:contain;
+background-image:url(img/rainbow.png);
+background-repeat: no-repeat;
+height: 200px;
+}
+#page
+{  
+background: #fff;
+box-shadow: 0px 5px 10px 5px rgb(0, 0, 0,0.5);
+margin-left:15%;
+margin-right:15%;
+margin-top: -150px;
+padding: 5px 32px 0px 0px;
+border-radius: 12px;
+}  
+/*Section intro 1*/
+#intro li
+{
+font-size: 22px;
+font-family:"courgette",cursive;
+color: #EB43A3
+}
+/*Description Myunicorn*/
+.description p
+{
+font-family:Arial, sans-serif;
+text-align:justify;
+text-align:left;
+margin-left: 15px;;
+}
+#list1 li
+{
+font-size: 22px;
+font-family:"courgette",cursive;
+color: #EB43A3
+}
+ .images
+{
+
+display:flex;
+margin-top: 5px;
+padding: 0px 0px 15px 5px;
+} 
+.im1
+{
+width: 150px;
+height: 150px;
+}
+/*Section */
+.list2 li
+{
+font-size: 22px;
+font-family:"courgette",cursive;
+color: #EB43A3
+}
+.Carte Map iframe
+{
+margin-left:10px;
+width:600px;
+height:450px;
+padding:10px
+}
+h3
+{
+font-family:"courgette",cursive;
+color: #EB43A3
+}
+footer{
+    background-color:#EB43A3;
+    text-align:right;
+    height: 50px;
+}
